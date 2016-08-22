@@ -1,0 +1,132 @@
+body{
+	background-color:#F4E1D4;
+	font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #A40B54;
+}
+
+p {
+	color: #A40B54;
+	font-size: 16px;
+	height: 20px;
+}
+
+a {
+	color: #E17D2A;
+	margin-right: 20px;
+	font-size: 16px;
+	line-height: 0px;
+}
+
+a:hover {
+	color: #410936;
+	text-decoration: none;
+}
+
+.header {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+
+/* Shake Related */
+.shake {
+	display:inline-block
+}
+
+.shake {
+	display:block;
+	position:relative;
+}
+
+#logo {
+	width: 250px;
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shake {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 1.0s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.shake:hover,
+.shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.2s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+/* Responsive */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 568px) {	
+	p {
+		margin-bottom: 50px;
+	}
+	a {
+		display: block;
+		margin-top: 30px;
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	h1 {
+
+	}
+	img {
+
+	}
+	p {
+		margin-bottom: 50px;
+	}
+	a {
+		display: block;
+		margin-top: 30px;
+	}
+}
+
