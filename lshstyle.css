@@ -34,6 +34,17 @@ a:hover {
 	margin-left: 40px;
 }
 
+.links {
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+.footer {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 
 /* Shake Related */
 .shake {
@@ -103,8 +114,8 @@ a:hover {
 }
 
 @media (max-width: 568px) {	
-	p {
-		margin-bottom: 50px;
+	.links {
+		margin-top: 50px;
 	}
 	a {
 		display: block;
@@ -115,15 +126,20 @@ a:hover {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-	h1 {
+	.links {
+		margin-top: 80px;
+	}
+	a {
+		display: block;
+		margin-top: 30px;
+	}
+}
 
+@media (max-width: 320px) {
+	.links {
+		margin-top: 80px;
 	}
-	img {
 
-	}
-	p {
-		margin-bottom: 50px;
-	}
 	a {
 		display: block;
 		margin-top: 30px;
